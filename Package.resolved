@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "shpersistenceserviceinterface",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Yabby1997/SHPersistenceServiceInterface",
+      "state" : {
+        "revision" : "dae2ce78d54d34bf934261fee6522148d7a36a78",
+        "version" : "0.1.0"
+      }
+    }
+  ],
+  "version" : 2
+}
