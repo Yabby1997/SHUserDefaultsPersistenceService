@@ -1,5 +1,5 @@
 //
-//  SHPersistenceUserDefaultsService.swift
+//  SHUserDefaultsPersistenceService.swift
 //  
 //
 //  Created by USER on 2023/06/08.
@@ -8,7 +8,7 @@
 import Foundation
 import SHPersistenceServiceInterface
 
-final class SHPersistenceUserDefaultsService: SHPersistenceServiceInterface {
+final class SHUserDefaultsPersistenceService: SHPersistenceServiceInterface {
     private let decoder = JSONDecoder()
     private let encoder = JSONEncoder()
 

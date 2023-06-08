@@ -4,21 +4,21 @@
 import PackageDescription
 
 let package = Package(
-    name: "SHUserDefaults PersistenceService",
+    name: "SHUserDefaultsPersistenceService",
     platforms: [
         .iOS(.v15)
     ],
     products: [
         .library(
-            name: "SHUserDefaults PersistenceService",
-            targets: ["SHUserDefaults PersistenceService"]),
+            name: "SHUserDefaultsPersistenceService",
+            targets: ["SHUserDefaultsPersistenceService"]),
     ],
     dependencies: [
         .package(url: "https://github.com/Yabby1997/SHPersistenceServiceInterface", from: "0.1.0"),
     ],
     targets: [
         .target(
-            name: "SHUserDefaults PersistenceService",
+            name: "SHUserDefaultsPersistenceService",
             dependencies: [
                 .product(name: "SHPersistenceServiceInterface", package: "SHPersistenceServiceInterface"),
             ]),
